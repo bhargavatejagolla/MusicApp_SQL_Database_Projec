@@ -105,8 +105,39 @@ FROM Song JOIN LikeCounts USING(song_id);
 3.Data Import:
 
 -  Execute provided INSERT statements
+-   Verify with SELECT COUNT(*) FROM User; (should return 20)
+-   Execute the INSERT INTO statements for Users, Songs, Singers, etc.
+  
+4.Verify Data Load:
+```sql
+    SELECT COUNT(*) FROM User;   -- should return 20
+    SELECT COUNT(*) FROM Song;   -- should return 20
+```
+## 📊 Business Use Cases Solved  
 
--   Verify with SELECT COUNT(*) FROM User; (should return 20)   
+- ✔ **Track most popular songs** and categorize them.  
+- ✔ **Identify top-performing artists** based on followers.  
+- ✔ **Segment users** (regular vs premium).  
+- ✔ **Playlist analytics** (songs in multiple playlists, top songs per playlist).  
+- ✔ **Demographic insights** (age-based, gender-based).  
+
+---
+
+## 🚀 Why This Project is Helpful  
+
+This project is useful for:  
+
+- 🎓 **Students**: Practicing SQL joins, subqueries, CTEs, and window functions.  
+- 📊 **Data Analysts**: Understanding how to structure and query relational data.  
+- 💼 **Interview Prep**: Covers many real-world SQL scenarios frequently asked in technical interviews.  
+- 👨‍💻 **Developers**: Can be used as a base schema for building the backend of a music streaming app.  
+---
+## 👨‍💻 Author
+
+*Golla Bhargava Teja*  
+
+- 🌐 [Portfolio / Projects](https://github.com/bhargavatejagolla)  
+- 💼 [LinkedIn](https://www.linkedin.com/in/golla-bhargava-teja/)  
 
 
   
